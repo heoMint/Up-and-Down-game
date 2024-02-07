@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>UP & DOWN GAME</h1>
-    <div id="result-area" label="결과">결과가 보여집니다. </div>
-    <div id="chances-area" label="남은 횟수">남은 횟수: 5번 </div>
-    <input type="number" id="user-input" placeholder="숫자를 입력하세요" />
-    <button id="play-button">Go!</button>
-    <button id="play-reset">Reset!</button>
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Sixtyfour&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <main class="container">
+            <div class="header-container">
+                <h1 class="font1"><span>UP & DOWN</span><br />GAME</h1>
+            </div>
+            <div class="area-container">
+                <img src="image/spin.gif" class="main-img">
+                <div id="result-area" label="결과">가보자고</div>
+                <div id="chances-area" label="남은 횟수">남은 횟수: 5번</div>
+            </div>
+            <div class="input-container">
+                <input type="number" id="user-input" placeholder=" 숫자를 입력하세요" />
+                <button class="play-button">Go!</button>
+            </div>
+            <button class="play-reset">Reset!</button>
+            <script src="main.js"></script>
+        </main>
+    </body>
 </html>
